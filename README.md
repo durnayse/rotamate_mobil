@@ -3,8 +3,6 @@
 RotaMate, kullanıcıların bütçe, iklim, aktivite tercihi ve uçuş süresi gibi kriterlerine göre **en uygun tatil ülkelerini** öneren Android tabanlı bir mobil uygulamadır.  
 Uygulama Firebase altyapısı kullanır ve **admin / kullanıcı** rolleri ile çalışır.
 
----
-
 ## 🚀 Özellikler
 
 ### 👤 Kullanıcı Tarafı
@@ -20,16 +18,12 @@ Uygulama Firebase altyapısı kullanır ve **admin / kullanıcı** rolleri ile �
 - Favorilerde arama ve swipe ile silme
 - Haritada ülkeyi görüntüleme
 
----
-
 ### 👑 Admin Paneli
 - Admin rolü ile özel giriş
 - Firestore’daki **ülkeleri listeleme**
 - Ülke ekleme / silme
 - Kullanıcıları görüntüleme
 - Kart tabanlı modern arayüz (Material Design)
-
----
 
 ## 🛠️ Kullanılan Teknolojiler
 
@@ -41,8 +35,6 @@ Uygulama Firebase altyapısı kullanır ve **admin / kullanıcı** rolleri ile �
 - **Material Design**
 - **Retrofit (Country API)**
 - **Glide (Resim yükleme)**
-
----
 
 ## 🧩 Mimari Yapı
 
@@ -66,8 +58,6 @@ Uygulama Firebase altyapısı kullanır ve **admin / kullanıcı** rolleri ile �
   - AdminCountryAdapter
   - AdminUsersAdapter
 
----
-
 ## 🗂️ Firestore Yapısı
 
 ```text
@@ -89,3 +79,4 @@ countries
       ├── flightTime
       ├── imageUrl
       └── description
+
