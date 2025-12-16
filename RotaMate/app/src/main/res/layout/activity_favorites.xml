@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 🔍 ARAMA -->
+    <SearchView
+        android:id="@+id/searchFavorites"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="Favori ülkelerde ara"
+        android:iconifiedByDefault="false"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- 🏷 BAŞLIK -->
+    <TextView
+        android:text="❤️ Favori Ülkelerim"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- 📭 BOŞ EKRAN -->
+    <TextView
+        android:id="@+id/tvEmptyFavorites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Henüz favori ülken yok ❤️"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
+
+    <!-- 📋 FAVORİ LİSTESİ -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerFavorites"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>

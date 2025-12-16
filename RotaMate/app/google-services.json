@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "816329916182",
+    "project_id": "rotamate-2db2e",
+    "storage_bucket": "rotamate-2db2e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816329916182:android:992d9646f203593a6c9a37",
+        "android_client_info": {
+          "package_name": "com.example.rotamate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMnL_a9f7c0hHnwwmVtocoBg5DSb_VxDU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

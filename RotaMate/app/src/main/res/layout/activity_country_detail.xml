@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- ❤️ FAVORİ KALP -->
+        <ImageView
+            android:id="@+id/imgFavorite"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_favorite_border"
+            android:contentDescription="Favori"
+            android:layout_gravity="end"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- ÜLKE BAYRAĞI -->
+        <ImageView
+            android:id="@+id/imgDetailCountry"
+            android:layout_width="260dp"
+            android:layout_height="160dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="Ülke Bayrağı"
+            android:layout_marginBottom="20dp" />
+
+        <!-- ÜLKE ADI -->
+        <TextView
+            android:id="@+id/tvDetailName"
+            android:text="Ülke Adı"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- BÖLGE -->
+        <TextView
+            android:id="@+id/tvDetailRegion"
+            android:text="Bölge:"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:layout_marginBottom="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- NÜFUS -->
+        <TextView
+            android:id="@+id/tvDetailPopulation"
+            android:text="Nüfus:"
+            android:textSize="18sp"
+            android:layout_marginBottom="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- BAŞKENT -->
+        <TextView
+            android:id="@+id/tvDetailCapital"
+            android:text="Başkent:"
+            android:textSize="18sp"
+            android:layout_marginBottom="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- PARA BİRİMİ -->
+        <TextView
+            android:id="@+id/tvDetailCurrency"
+            android:text="Para Birimi:"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- KONUŞULAN DİLLER -->
+        <TextView
+            android:id="@+id/tvDetailLanguages"
+            android:text="Konuşulan Diller:"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- 📍 HARİTADA GÖSTER -->
+        <Button
+            android:id="@+id/btnOpenMap"
+            android:text="Haritada Göster"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp" />
+
+    </LinearLayout>
+
+</ScrollView>

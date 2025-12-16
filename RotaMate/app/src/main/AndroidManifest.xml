@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rotamate">
+    <!-- İnternet izni (API + Glide için şart) -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RotaMate">
+        <activity
+            android:name=".FavoriteCountry"
+            android:exported="false" />
+        <activity
+            android:name=".FavoritesAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".FavoritesActivity"
+            android:exported="false" /> <!-- GİRİŞ EKRANI (UYGULAMA BURADAN AÇILIR) -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- KAYIT -->
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" /> <!-- KULLANICI ANA SAYFA -->
+        <activity
+            android:name=".UserHomeActivity"
+            android:exported="false" /> <!-- ANKET -->
+        <activity
+            android:name=".SurveyActivity"
+            android:exported="false" /> <!-- SONUÇ -->
+        <activity
+            android:name=".ResultActivity"
+            android:exported="false" /> <!-- ÜLKE DETAY -->
+        <activity
+            android:name=".CountryDetailActivity"
+            android:exported="false" /> <!-- ADMİN -->
+        <activity
+            android:name=".AdminHomeActivity"
+            android:exported="false" /> <!-- (Eğer hâlâ kullanıyorsan) -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>
